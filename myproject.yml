@@ -1,0 +1,161 @@
+# This is a basic workflow to help you get started with Actions
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>practice for assignment</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		h1{
+			text-align: center;
+		}
+		div{
+			font-family: arial;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		article{
+			text-align: right;
+			background-color: green;
+			float:right;
+			width:100%;
+		}
+		p{
+			background-color: grey;
+			width:100%;
+		}
+		.row{
+			width:100%;
+		}
+		@media (min-width: 1200px){
+			.col-lg-1, .col-lg-2, .col-lg-3{
+				float:left;
+				border:1px solid black;
+				padding: 10px;
+				text-align: center;
+				}
+				.col-lg-1{
+					width:29%;
+					height:30%;
+					padding: 10px;
+					margin:10px;
+					background-color: grey;
+				}
+				.col-lg-2{
+					width:48%;
+					background-color: grey;
+				}
+				.col-lg-3;{
+					width:90%;
+					background-color: grey;
+				}
+			} 
+			@media (min-width: 992px) and (max-width: 1199px){
+			.col-md-1, .col-md-2, .col-md-3{
+				float:left;
+				border:1px solid black;
+				padding: 10px;
+				text-align: center;
+				}
+				.col-md-1{
+					width:75%;
+					height:30%;
+					padding: 10px;
+					margin:10px;
+					background-color: grey;
+				}
+				.col-md-2{
+					width:48%;
+					background-color: grey;
+				}
+				.col-md-3;{
+					width:90%;
+					background-color: grey;
+				}
+			} 
+		@media (min-width: 768px) and (max-width: 991px){
+			.col-tab-1, .col-tab-2, .col-tab-3{
+				float:left;
+				border:1px solid black;
+				padding: 10px;
+				text-align: center;
+				}
+				.col-tab-1{
+					width:47%;
+					height:30%;
+					padding: 10px;
+					margin:10px;
+					background-color: grey;
+				}
+				.col-tab-2{
+					width:48%;
+					background-color: grey;
+				}
+				.col-tab-3;{
+					width:90%;
+					background-color: grey;
+				}
+			} 
+				@media (min-width: 767px){
+			.col-mob-1, .col-mob-2, .col-mob-3{
+				float:left;
+				border:1px solid black;
+				padding: 10px;
+				text-align: center;
+				}
+				.col-mob-1{
+					width: 90%;
+					height: 30%;
+					padding: 10px;
+					margin-bottom: 40px;
+					background-color: grey;
+					border:2px solid black;
+				}
+				.col-mob-2{
+					width:90%;
+					border:2px solid black;
+					height:40%;
+					padding: 10px;
+					margin-bottom: 40px;
+					background-color: grey;
+				}
+				.col-mob-3;{
+					width:90%;
+					border:2px solid black;
+					height:40%;
+					padding: 10px;
+					margin-bottom: 40px;
+					background-color: grey;
+				
+					
+				} 
+			} 
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+<div class="row">	
+<div class="col-lg-1 col-md-1 col-tab-1 .col-mob-1">
+	<article style="background-color: pink";>Chicken</article>
+	<p>lorem ipsum dolor sit amet, consectectur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<div class="col-lg-1 col-md-1 col-tab-1 .col-mob-2">
+	<article style="background-color: red";>Beef</article>
+	<p>lorem ipsum dolor sit amet, consectectur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+<div style="background-color: grey;" class="col-lg-1 col-md-1 col-tab-3 .col-mob-3">
+<article style="background-color: yellow";>Sushi</article>
+<p>lorem ipsum dolor sit amet, consectectur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>	
+</div>
+
+
+</div>
+</body>
+</html>
